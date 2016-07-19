@@ -14,6 +14,6 @@ docker run -it --rm katosys/awscli help
 docker run -it --rm \
 --volume ${HOME}/.aws:/root/.aws \
 --volume ${PWD}:/aws \
-katosys/awscli:1.10.47-1 \
+katosys/awscli:v1.10.47-1 \
 s3 cp s3://my_bucket/my_file .
 ```
